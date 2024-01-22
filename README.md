@@ -6,18 +6,20 @@
 O presente trabalho apresenta o desenvolvimento de um protótipo de sistema de inspeção óptica de placas de circuito impresso para linhas de produção com inserção manual de componentes. Inicialmente será apresentada a fundamentação teórica para o desenvolvimento deste trabalho: estudo sobre o processo de fabricação de placas de circuito impresso, métodos de inspeção para placas de circuito impresso, processamento digital de imagem, linguagem de programação Python e bibliotecas, e, por fim, o estudo a respeito da Raspberry Pi. Em seguida é descrito os estágios de desenvolvimento do projeto. No primeiro estágio é desenvolvido o sistema de iluminação e preparação do enclausuramento como ambiente para a realização da captura de imagens das placas de circuito impresso. Após esse estágio é feito ajuste de câmera e iluminação, assim como o algoritmo utilizando processamento digital de imagem. No último estágio é feito o cadastro das placas de circuito impresso definindo as regiões de interesse na mesma. Por fim, por meio da interface homem-máquina é possível analisar a presença dos componentes inseridos manualmente.
 
 ## Componentes utilizados
-1 mini computador Raspberry Pi 4 Modelo B
-1 protoboard 830 furos MB-102
-1 mini fonte chaveada de 5VDC
-1 mini fonte chaveada de 12VDC
-2 módulos relé 5V de 1 canal
-10 leds branco de alto brilho 3V
-4 resistores de 2kΩ de 1/4W
-Fios para conexão
+- 1 mini computador Raspberry Pi 4 Modelo B
+- 1 protoboard 830 furos MB-102
+- 1 mini fonte chaveada de 5VDC
+- 1 mini fonte chaveada de 12VDC
+- 2 módulos relé 5V de 1 canal
+- 10 leds branco de alto brilho 3V
+- 4 resistores de 2kΩ de 1/4W
+- Fios para conexão
+
 Para o enclausuramento e bases para posicionar as PCBs e câmera, foram necessários os seguintes itens:
-1 caixa de papelão de material não reflexivo
-2 berços para placas 1 e 2 de papelão de material não reflexivo
-1 câmera Logitech C922 Pro HD Stream 1080p Webcam
+- 1 caixa de papelão de material não reflexivo
+- 2 berços para placas 1 e 2 de papelão de material não reflexivo
+- 1 câmera Logitech C922 Pro HD Stream 1080p Webcam
+
 Para a realização da implementação foram utilizadas duas PCB’s para a cadastro no sistema e validação de funcionamento do mesmo. Na Figura 21, temos a placa 1, que é uma placa de amplificador de som.
 
 ## Formulação do Problema
