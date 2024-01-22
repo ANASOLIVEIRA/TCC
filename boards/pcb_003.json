@@ -1,0 +1,113 @@
+{
+	"cap_001": {
+		"pos": [32, 13, 146, 125],
+		"filters": [
+			{
+				"method": "cvtColor",
+				"params": "COLOR_RGB2GRAY"
+			},
+			{
+				"method": "inRange",
+				"params": [75, 100]
+			},
+			{
+				"method": "dilate",
+				"params": [3, 1]
+			}
+		],
+		"identifier": {
+			"method": "countNonZero",
+			"equal": null,
+			"min": 8000,
+			"max": 15000
+		}
+	},
+	"cap_002": {
+		"pos": [287, 67, 309, 84],
+		"filters": [
+			{
+				"method": "cvtColor",
+				"params": "COLOR_RGB2GRAY"
+			},
+			{
+				"method": "inRange",
+				"params": [95, 115]
+			},
+			{
+				"method": "dilate",
+				"params": [3, 1]
+			}
+		],
+		"identifier": {
+			"method": "countNonZero",
+			"equal": null,
+			"min": 75,
+			"max": 200
+		}
+	},
+	"cap_003": {
+		"pos": [287, 85, 309, 102],
+		"filters": [
+			{
+				"method": "cvtColor",
+				"params": "COLOR_RGB2GRAY"
+			},
+			{
+				"method": "inRange",
+				"params": [95, 115]
+			},
+			{
+				"method": "dilate",
+				"params": [3, 1]
+			}
+		],
+		"identifier": {
+			"method": "countNonZero",
+			"equal": null,
+			"min": 75,
+			"max": 200
+		}
+	},
+	"cap_004": {
+		"pos": [237, 117, 286, 166],
+		"filters": [
+			{
+				"method": "cvtColor",
+				"params": "COLOR_RGB2GRAY"
+			},
+			{
+				"method": "inRange",
+				"params": [75, 100]
+			},
+			{
+				"method": "dilate",
+				"params": [3, 1]
+			}
+		],
+		"identifier": {
+			"method": "countNonZero",
+			"equal": null,
+			"min": 1500,
+			"max": 3000
+		}
+	},
+	"res_005": {
+		"pos": [287, 133, 301, 166],
+		"filters": [
+			{
+				"method": "cvtColor",
+				"params": "COLOR_RGB2GRAY"
+			},
+			{
+				"method": "inRange",
+				"params": [85, 175]
+			}
+		],
+		"identifier": {
+			"method": "countNonZero",
+			"equal": null,
+			"min": 150,
+			"max": 300
+		}
+	}
+}
